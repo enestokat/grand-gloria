@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body {
+    overflow: hidden;
+}
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.navbar1 {
+    list-style-type: none;
+    background-color: rgba(219, 235, 237, 0.9);
+    position: absolute;
+    width: 50%;
+    height: 6vh;
+    top: 2.5rem;
+    left: 0;
+    padding: 0.5rem 1rem;
+    display: flex;
+    float: left;
+}
+.navbar2 {
+    list-style-type: none;
+    background-color: rgba(219, 235, 237, 0.9);
+    position: absolute;
+    width: 50%;
+    height: 6vh;
+    top: 2.5rem;
+    right: 0;
+    padding: 0.5rem 1rem;
+    display: flex;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1em 3rem;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #d2ac66;
+}
+img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 0.5rem;
+    left: 48.5rem;
+    width: 11rem;
+    border-radius: 7rem;
+}
+.container {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    color: white;
+    right: 2rem;
+    font-size: 2rem;
+    opacity: 0.7;
+}
+.container i {
+    background-color: rgba(219, 235, 237, 1rem);
+    padding: 0.25rem;
+    cursor: pointer;
+}
+ .form1 {
+    display: flex;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #333;
+    bottom: 2rem;
+    right: 6rem;
+    width: 15rem;
+    height: 20rem;
+}
+ .form1 h4 {
+    color: white;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+h5 {
+    color: white;
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+}
+label {
+    color: white;
+}
+input[type=date] {
+    position: absolute;
+    padding: 0.3rem;
+    width: 7.5rem;
+    height: 2rem; 
+}
+ .check-in { 
+     position: absolute;
+     top: 6rem;
+     left: 0.8rem;
+}
+.check-in1 {
+    top: 5.5rem;
+    right: 1.5rem;
+}
+.check-out {
+    position: absolute;
+    top: 9rem;
+    left: 0.8rem;
+}
+.check-out1 {
+    top: 8.5rem;
+    right: 1.5rem;
+}
+.guests {
+    position: absolute;
+    top: 12rem;
+    left: 1.2rem;
+}
+input[type=number] {
+    width: 5rem;
+    height: 2rem;
+    position: absolute;
+    top: 11.5rem;
+    right: 4rem;
+}
+input[type=submit] {
+    width: 12rem;
+    background-color: #d2ac66;
+    color: white;
+    padding: 11px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 2.5rem;
+    left: 1.5rem;
+}
+input[type=submit]:hover {
+    background-color: #d6b475;
+}
+.form2 {
+    display: flex;
+    position: absolute;
+    background-color: #333;
+    bottom: 2rem;
+    left: 3rem;
+    width: 23rem;
+    height: 8rem;
+    border-radius: 5px;
+}
+.form3 {
+    background-color: #d2ac66;
+    width: 8rem;
+    height: 8rem;
+}
+.form2 h4 {
+    color: white;
+    margin: 1.5rem;
+}
+.form2 h5 {
+    color: white;
+    top: 3.2rem;
+    left: 8.2rem;
+}
+.button {
+    background-color: #d2ac66;
+    color: white;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 7rem;
+    height: 2rem;
+    position: absolute;
+    left: 11rem;
+    top: 5rem;
+
+}
+.button:hover {
+    background-color: #d6b475;
+}
+.container2 {
+    background-color: #d2ac66;
+    color: white;
+    cursor: pointer;
+    padding: 1.5rem;
+    font-size: 4.5rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 3rem;
+    width: 8rem;
+    height: 8rem;
+} 
+
+
+
+
+
